@@ -1,0 +1,34 @@
+# Node artifact files
+node_modules/
+dist/
+uploads
+
+# Log files
+*.log
+
+# Maven
+target/
+dist/
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# dotenv files
+.env
+.vscode
+
+
+# ignore paypal pem cert file
+
+https*
+
+# ignore migration
+# **/migrations/**
+
+/test.js
+/uploads
